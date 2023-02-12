@@ -1,0 +1,15 @@
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\bin\Debug\net6.0\CabInvoice.exe
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\bin\Debug\net6.0\CabInvoice.deps.json
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\bin\Debug\net6.0\CabInvoice.runtimeconfig.json
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\bin\Debug\net6.0\CabInvoice.dll
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\bin\Debug\net6.0\CabInvoice.pdb
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.csproj.AssemblyReference.cache
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.AssemblyInfoInputs.cache
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.AssemblyInfo.cs
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.csproj.CoreCompileInputs.cache
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.dll
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\refint\CabInvoice.dll
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.pdb
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\CabInvoice.genruntimeconfig.cache
+C:\Users\Sartaj khan\source\repos\CabInvoice\CabInvoice\obj\Debug\net6.0\ref\CabInvoice.dll
