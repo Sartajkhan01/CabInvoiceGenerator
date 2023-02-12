@@ -22,6 +22,13 @@ namespace CabInvoice
                 COST_PER_KM = 10;
                 COST_PER_MINUTE = 1;
             }
+            if (type.Equals(RideType.PREMIUM))
+            {
+                MINIMUM_FARE = 20;
+                COST_PER_KM = 15;
+                COST_PER_MINUTE = 2;
+
+            }
         }
 
         // UC1 - Method to calculate fare for single ride
