@@ -31,6 +31,7 @@ namespace TestProject2
             var invalidDistanceException = Assert.Throws<CabInvoiceGeneratorException>(() => generateNormalFare.CalculateFare(12, 0));
             Assert.AreEqual(CabInvoiceGeneratorException.ExceptionType.INVALID_DISTANCE, invalidDistanceException.exceptionType);
         }
+        /*
         // TC2.1 - Given multiple rides should return aggregate fare
         [Test]
         public void GivenMultipleRidesReturnAggregateFare()
@@ -45,13 +46,13 @@ namespace TestProject2
                 new Ride(10, 15), //160
                 new Ride(15, 20)  //15*1+20*10=215
             };
-
+        
             //Act
             actual = generateNormalFare.CalculateAgreegateFare(cabRides);
             //Assert
             Assert.AreEqual(actual, expected);
         }
-
+        */
         // TC2.2 - given no rides return custom exception
         [Test]
         public void GivenNoRidesReturnCustomException()
@@ -63,6 +64,26 @@ namespace TestProject2
             var nullRidesException = Assert.Throws<CabInvoiceGeneratorException>(() => generateNormalFare.CalculateAgreegateFare(cabRides));
             //Assert
             Assert.AreEqual(CabInvoiceGeneratorException.ExceptionType.NULL_RIDES, nullRidesException.exceptionType);
+        }
+        // TC2.1 -> TC3.1 - Given Invoice Generator Should Return The Number Of Ride, TotalFare. and AverageFare Per Ride.
+        [Test]
+        public void GivenInvoiceReturnNumOfRideTotalFareandAverageFare()
+        {
+            //Arrange
+            generateNormalFare = new CabInvoiceGen(RideType.NORMAL);
+            Ride[] cabRides = new Ride[]
+            {
+                new Ride(10, 15), //160
+                new Ride(15, 20)  //15*1+20*10=215
+            };
+            double totalfare = 375;
+            InvoiceSummary expected = new InvoiceSummary(cabRides.Length, totalfare);  //215+160 = 375/-
+
+            //Act
+            var actual = generateNormalFare.CalculateAgreegateFare(cabRides);
+
+            //Assert
+            Assert.AreEqual(actual, expected);
         }
     }
 }
